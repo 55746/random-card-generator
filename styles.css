@@ -12,21 +12,28 @@ body {
   background: white;
   display: flexbox;
 }
-.number {
+#number {
   display: block;
   padding-top: 90px;
   padding-left: 147px;
   font-size: 75px;
 }
-.top-suit {
+#top-suitblack {
   display: block;
   padding-top: 10px;
   padding-left: 15px;
   font-size: 70px;
 }
-.bottom-suit {
+#bottom-suitblack {
   display: block;
   padding-top: 123px;
   padding-left: 297px;
   font-size: 70px;
+}
+#top-suitred {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 70px;
+  color: red;
 }
